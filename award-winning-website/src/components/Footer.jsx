@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
 
         <a
-          href="src/privacy-policy.html"
+          href="temp/privacy-policy.html"
           className="text-center text-sm font-times hover:underline md:text-right"
         >
           Құпиялылық саясат

@@ -114,7 +114,7 @@ const Features = () => (
         </div>
 
         <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
-          <a href="src/ncp.html">
+          <a href="temp/ncp.html">
             <BentoCard
                 src="videos/ncp.mp4"
                 title={
@@ -131,7 +131,7 @@ const Features = () => (
 
         <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7">
           <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
-            <a href="src/coolingTower.html" target="_blank" rel="noopener noreferrer">
+            <a href="temp/coolingTower.html" target="_blank" rel="noopener noreferrer">
               <BentoCard
                   src="videos/CoolongTowerVideo.mp4"
                   title={
@@ -146,7 +146,7 @@ const Features = () => (
           </BentoTilt>
 
           <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
-            <a href="src/reactor.html">
+            <a href="temp/reactor.html">
               <BentoCard
                   src="videos/Reactor.mp4"
 
@@ -163,7 +163,7 @@ const Features = () => (
 
 
           <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
-            <a href="src/steamTurbine.html">
+            <a href="temp/steamTurbine.html">
               <BentoCard
                   src="videos/steamTurbine.mp4"
                   title={
@@ -178,7 +178,7 @@ const Features = () => (
           </BentoTilt>
 
           <BentoTilt className="bento-tilt_2">
-            <a href="src/reactorCore.html" target="_blank" rel="noopener noreferrer">
+            <a href="temp/reactorCore.html" target="_blank" rel="noopener noreferrer">
               <div className="flex size-full flex-col justify-between  ">
                 <img
                     src="/img/ncpCore.webp" // замени на актуальный путь к картинке
@@ -194,7 +194,7 @@ const Features = () => (
           </BentoTilt>
 
           <BentoTilt className="bento-tilt_2">
-            <a href="src/electicGenerator.html" target="_blank">
+            <a href="temp/electicGenerator.html" target="_blank">
               <div className="flex size-full flex-col justify-between  ">
                 <img
                     src="/img/generator.webp" // замени на актуальный путь к картинке
@@ -207,7 +207,7 @@ const Features = () => (
             </a>
           </BentoTilt>
           <BentoTilt className="bento-tilt_2">
-            <a href="src/turbine.html" target="_blank">
+            <a href="temp/turbine.html" target="_blank">
               <div className="flex size-full flex-col justify-between  ">
                 <img
                     src="/img/turbine.webp" // замени на актуальный путь к картинке
@@ -220,7 +220,7 @@ const Features = () => (
             </a>
           </BentoTilt>
           <BentoTilt className="bento-tilt_2">
-            <a href="src/fuelAssembly.html" target="_blank">
+            <a href="temp/fuelAssembly.html" target="_blank">
               <div className="flex size-full flex-col justify-between   ">
                 <img
                     src="/img/fuelAssembly.jpg" // замени на актуальный путь к картинке
