@@ -145,35 +145,32 @@ const Features = () => (
             </a>
           </BentoTilt>
 
-          <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
-            <a href="temp/reactor.html">
-              <BentoCard
-                  src="videos/Reactor.mp4"
-
-                  title={
-                    <>
-                      Ядорлық реактор
-                    </>
-                  }
-                  description="Ядролық реактор – бұл басқарылатын тізбекті ядролық реакция жүретін құрылғы, ол электр энергиясын өндіру үшін жылу бөледі."
-                  isComingSoon
-              />
+          <BentoTilt className="bento-tilt_2">
+            <a href="temp/turbine.html" target="_blank">
+              <div className="flex size-full flex-col justify-between  ">
+                <img
+                    src="/img/turbine.webp" // замени на актуальный путь к картинке
+                    alt="Image"
+                />
+                <h1 className="absolute  inset-1 p-5 justify-start text-white bento-title special-font ">
+                  Бу турбинасы
+                </h1>
+              </div>
             </a>
           </BentoTilt>
 
 
-          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
-            <a href="temp/steamTurbine.html">
-              <BentoCard
-                  src="videos/steamTurbine.mp4"
-                  title={
-                    <>
-                      Турбина залы
-                    </>
-                  }
-                  description="Турбина залы – бұл электр станциясындағы турбиналар мен генераторлар орналасқан кең ғимарат, онда жылу энергиясы механикалық және электр энергиясына айналады. Электр өндірудің негізгі процесі осы жерде жүзеге асады."
-                  isComingSoon
-              />
+          <BentoTilt className="bento-tilt_2">
+            <a href="temp/fuelAssembly.html" target="_blank">
+              <div className="flex size-full flex-col justify-between   ">
+                <img
+                    src="/img/fuelAssembly.jpg" // замени на актуальный путь к картинке
+                    alt="Image"
+                />
+                <h1 className="absolute  inset-1 p-5 justify-start text-white bento-title special-font ">
+                  Ядролық отын жинағы
+                </h1>
+              </div>
             </a>
           </BentoTilt>
 
@@ -206,32 +203,39 @@ const Features = () => (
               </div>
             </a>
           </BentoTilt>
-          <BentoTilt className="bento-tilt_2">
-            <a href="temp/turbine.html" target="_blank">
-              <div className="flex size-full flex-col justify-between  ">
-                <img
-                    src="/img/turbine.webp" // замени на актуальный путь к картинке
-                    alt="Image"
-                />
-                <h1 className="absolute  inset-1 p-5 justify-start text-white bento-title special-font ">
-                  Бу турбинасы
-                </h1>
-              </div>
+
+          <BentoTilt className="w-full bento-tilt_1  row-span-1 ms-32 md:col-span-1 md:ms-0">
+            <a href="temp/reactor.html">
+              <BentoCard
+                  src="videos/Reactor.mp4"
+
+                  title={
+                    <>
+                      Ядорлық реактор
+                    </>
+                  }
+                  description="Ядролық реактор – бұл басқарылатын тізбекті ядролық реакция жүретін құрылғы, ол электр энергиясын өндіру үшін жылу бөледі."
+                  isComingSoon
+              />
             </a>
           </BentoTilt>
-          <BentoTilt className="bento-tilt_2">
-            <a href="temp/fuelAssembly.html" target="_blank">
-              <div className="flex size-full flex-col justify-between   ">
-                <img
-                    src="/img/fuelAssembly.jpg" // замени на актуальный путь к картинке
-                    alt="Image"
-                />
-                <h1 className="absolute  inset-1 p-5 justify-start text-white bento-title special-font ">
-                  Ядролық отын жинағы
-                </h1>
-              </div>
+
+          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+            <a href="temp/steamTurbine.html">
+              <BentoCard
+                  src="videos/steamTurbine.mp4"
+                  title={
+                    <>
+                      Турбина залы
+                    </>
+                  }
+                  description="Турбина залы – бұл электр станциясындағы турбиналар мен генераторлар орналасқан кең ғимарат, онда жылу энергиясы механикалық және электр энергиясына айналады. Электр өндірудің негізгі процесі осы жерде жүзеге асады."
+                  isComingSoon
+              />
             </a>
           </BentoTilt>
+
+
 
 
         </div>
